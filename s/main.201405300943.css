@@ -1,0 +1,275 @@
+
+body {
+    background: #eee;
+    color: #303030;
+    old-font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+a, a:link, a:visited
+{
+    opacity: 95%;
+    transition: color 0.1s ease-out;
+    color: #a62;
+    text-decoration: none;
+}
+a:hover, a:active
+{
+    color: #a62;
+    te-xt-decoration: underline;
+    no_text-shadow: 0px 1px 1px #777;
+}
+
+abbr {
+    color: #555;
+    font-size: 15px;
+}
+
+a.thumb {
+    position: relative;
+    width: 280px;
+    display: inline-block;
+    transition: background 0.2s ease-out;
+    border-radius: 12px;
+    text-align: left;
+}
+no_a.thumb:hover {
+    background: #ddd;
+}
+
+a.thumb img {
+    margin: 15px;
+    box-shadow: 2px 1px 7px #aaa;
+}
+
+div.zoom {
+    text-align: center;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+div.zoom img {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    box-shadow: 2px 1px 7px #aaa;
+}
+
+div.zoom_old {
+    text-align: center;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    max-height: 90%;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+div.zoom_old img {
+    max-width: 90%;
+    max-height: 80%;
+    box-shadow: 2px 1px 6px #666;
+    margin-bottom: 10px;
+}
+div.zoom abbr {
+    padding-top: 1px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+div.prev {
+    position: fixed;
+    margin-top: 10%;
+    height: 60%;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+    display: table-cell;
+}
+div.prev img {
+    vertical-align: middle;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 70px;
+    width: 70px;
+}
+
+div.next {
+    position: fixed;
+    margin-top: 10%;
+    height: 60%;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+    display: table-cell;
+}
+div.next img {
+    vertical-align: middle;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    width: 70px;
+}
+.vhelper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a.more div {
+    position: relative;
+    display: inline;
+    top: -12px;
+    bottom: 10px;
+    left: 14px;
+    font-size: 13;
+    letter-spacing: -1px;
+    opacity: 1;
+    w-idth: 485px;
+    width: 305px;
+    color: #777;
+    margin-top: 20px !important;
+    border-top: 1 solid #ddd;
+    border-bottom: 1 solid #ddd;
+    padding-left: 280px;
+}
+
+a.thumb div {
+    position: relative;
+    display: inline;
+    top: -12px;
+    bottom: 10px;
+    left: 14px;
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: -1px;
+    opacity: 1;
+    width: 250px;
+    color: #777;
+    b-order-bottom: 1 solid #ccc;
+}
+
+div.big {
+    font-size: 22px !important;
+}
+
+a.more div {
+    text-size: 11px;
+}
+
+div.head {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div.head img {
+    height: 50px;
+}
+
+div.head_no {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 110px;
+    left: -83px;
+}
+
+div.page {
+    margin-left: 118px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+div.subfolders {
+    width: 100%;
+    text-align: center;
+}
+
+div.sub4 div {
+    max-width: 800px !important;
+}
+
+div.subfolders div {
+    display: inline-block;
+    max-width: 1350px;
+    text-align: left;
+}
+
+div.subfolders a.thumb {
+    margin-left: 0px;
+    margin-right: 50px;
+}
+div.subfolders a div {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: -5px;
+    margin-bottom: 28px;
+}
+
+div.footer {
+    margin-top: 10px;
+    background: #ccc;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 28px;
+}
+
+div.footer div {
+    font-size: 11px;
+    display: inline;
+    padding-right: 5px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 2px;
+}
+div.footer div img {
+    padding-top: 0px;
+}
+
+div.mail
+{
+    position: absolute;
+    right: 50px;
+    bottom: 8px;
+}
+
+div.social
+{
+    position: absolute;
+    right: 130px;
+    bottom: 5px;
+}
+
+div.rss
+{
+    padding-left: 30px;
+    width: 16px;
+    z-index: 13;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    bottom: 6px;
+}
+div.rss img
+{
+    max-width: 16px;
+    max-height: 16px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self';
+    img-src 'self' https://oha.it https://api.met.no https://raw.githubusercontent.com;
+    connect-src 'self' https://api.entur.io https://api.met.no;
+">
+    <title>Oslo Transit & Weather</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div id="weather-grid" class="weather-grid">
+            <div class="weather-grid-row"></div>
+        </div>
+    </div>
+    <div class="departures-grid">
+        <div id="departures-dir2"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
